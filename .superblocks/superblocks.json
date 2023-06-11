@@ -1,0 +1,10 @@
+
+{ 
+  "resources": {
+    "11111111-0000-0000-0000-000000000000": {
+      "location": "apps/checkers_app",
+      "last_updated": "2023-01-01 00:00:00",
+      "resource_type": "APPLICATION"
+    }
+  }
+}
