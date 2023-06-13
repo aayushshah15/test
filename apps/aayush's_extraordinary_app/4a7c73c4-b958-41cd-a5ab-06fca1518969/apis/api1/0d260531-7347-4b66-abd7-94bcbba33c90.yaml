@@ -1,0 +1,53 @@
+id: 0d260531-7347-4b66-abd7-94bcbba33c90
+name: API1
+applicationId: 4a7c73c4-b958-41cd-a5ab-06fca1518969
+organizationId: 47278866-8fef-4750-a6af-2395394d900b
+triggerType: 0
+updated: 1684255743968
+folderId: null
+isDeployed: false
+deployedCommitId: null
+sendEmailOnFailure: null
+creator: {}
+actions:
+  name: API1
+  actions:
+    14c4b414-a050-4da8-addf-ba68410018a0:
+      id: 14c4b414-a050-4da8-addf-ba68410018a0
+      name: Step1
+      type: 0
+      pluginId: restapiintegration
+      datasourceId: 394e3605-921e-4682-983c-579b763d6140
+      applicationId: 4a7c73c4-b958-41cd-a5ab-06fca1518969
+      configuration:
+        params: []
+        headers: []
+        authType: None
+        bodyType: jsonBody
+        httpMethod: GET
+        fileFormKey: file
+        responseType: auto
+        superblocksMetadata:
+          pluginVersion: 0.0.12
+  bindings: []
+  triggerType: 0
+  workflowParams:
+    - key: body
+      value: {}
+  triggerActionId: 14c4b414-a050-4da8-addf-ba68410018a0
+  workflowQueries:
+    - key: params
+      value: {}
+apiPb: null
+settings:
+  profiles:
+    editor:
+      defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+    deployed:
+      defaultProfileId: 125970b6-0a0e-41b8-90ec-bf087d77d584
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a

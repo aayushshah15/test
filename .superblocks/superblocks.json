@@ -1,15 +1,15 @@
-
-{ 
+{
   "resources": {
-    "bea839ae-ffea-41d2-9c8c-827e12dedb96": {
-      "location": "apps/checkers_app",
-      "last_updated": "2023-01-01 00:00:00",
-      "resource_type": "APPLICATION"
-    },
-    "48d41af0-c12b-4595-bfb3-4468951dff1e": {
-      "location": "backends/checkers_backend",
-      "last_updated": "2023-01-01 00:00:00",
-      "resource_type": "BACKEND"
+    "4a7c73c4-b958-41cd-a5ab-06fca1518969": {
+      "location": "apps/aayush's_extraordinary_app/4a7c73c4-b958-41cd-a5ab-06fca1518969",
+      "lastUpdated": 1686688280278,
+      "resourceType": "APPLICATION"
     }
+  },
+  "metadata": {
+    "cliVersion": "0.0.1",
+    "remote": "http://localhost:3000/",
+    "lastUpdated": 1686688153419,
+    "created": 1686687922567
   }
 }
