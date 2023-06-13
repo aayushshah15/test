@@ -1,0 +1,28 @@
+id: 901f3b0e-a89d-4baf-944f-88af2043be97
+applicationId: ce95f180-c68b-4d17-a56c-b311cedbffa3
+updated: 2023-06-13T21:30:29.052Z
+name: Page1
+layouts:
+  - id: 5e70922d-35b5-4106-ae52-b83c73f6868f
+    dsl:
+      type: CANVAS_WIDGET
+      topRow: 0
+      version: 6
+      children: []
+      snapRows: 99
+      widgetId: "0"
+      bottomRow: 99
+      canExtend: true
+      minHeight: 1292
+      widgetName: MainContainer
+      snapColumns: 96
+      containerStyle: none
+      backgroundColor: none
+      detachFromLayout: true
+      dynamicBindingPathList: []
+    updated: 2023-06-13T21:30:29.052Z
+    actionUpdates: []
+    layoutOnLoadActions: []
+    messages: []
+    userPermissions: []
+isHidden: false

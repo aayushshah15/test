@@ -1,6 +1,6 @@
 id: 23142728-c8dd-49cc-a18f-5bde3f71d2b6
 applicationId: 4a7c73c4-b958-41cd-a5ab-06fca1518969
-updated: &a1 2023-06-13T21:28:28.135Z
+updated: 2023-06-13T21:28:28.135Z
 name: Page1
 layouts:
   - id: 7ef1fa4b-182c-4e35-a6ae-fe2ac2324960
@@ -36,7 +36,7 @@ layouts:
       detachFromLayout: true
       widgetLastChange: 2023-05-16T16:49:04.177Z
       dynamicBindingPathList: []
-    updated: *a1
+    updated: 2023-06-13T21:28:28.135Z
     actionUpdates: []
     layoutOnLoadActions: []
     messages: []
