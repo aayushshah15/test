@@ -1,30 +1,35 @@
 {
   "resources": {
-    "dc724b5a-5b9e-4c3d-8201-fba39455f289": {
-      "location": "backends/aayush's_wonderful_workflow",
-      "lastUpdated": 1689370512545,
-      "resourceType": "BACKEND"
-    },
     "c592561a-ecaf-4ee7-b8d2-e83096784dae": {
       "location": "backends/aayush's_mighty_workflow",
-      "lastUpdated": 1689370512545,
+      "lastUpdated": 1689370602954,
+      "resourceType": "BACKEND"
+    },
+    "45dc87b1-4e20-4061-8838-1be81786e318": {
+      "location": "apps/aayush's_mighty_app/45dc87b1-4e20-4061-8838-1be81786e318",
+      "lastUpdated": 1689370602954,
+      "resourceType": "APPLICATION"
+    },
+    "dc724b5a-5b9e-4c3d-8201-fba39455f289": {
+      "location": "backends/aayush's_wonderful_workflow",
+      "lastUpdated": 1689370602954,
       "resourceType": "BACKEND"
     },
     "a4a5522a-655e-480a-9e3e-cc8c55f2356e": {
       "location": "backends/aayush's_incredible_workflow",
-      "lastUpdated": 1689370512545,
+      "lastUpdated": 1689370602954,
       "resourceType": "BACKEND"
     },
     "264d7c93-ab17-46f3-9a9d-5966f6cca064": {
       "location": "apps/ahmet's_awesome_app/264d7c93-ab17-46f3-9a9d-5966f6cca064",
-      "lastUpdated": 1689370512545,
+      "lastUpdated": 1689370602954,
       "resourceType": "APPLICATION"
     }
   },
   "metadata": {
     "cliVersion": "0.0.1",
     "remote": "https://pr-4646.superblocks.dev/",
-    "lastUpdated": 1689370507908,
+    "lastUpdated": 1689370596838,
     "created": 1686687922567
   }
 }
