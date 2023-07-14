@@ -1,25 +1,15 @@
 {
   "resources": {
-    "428ec6ba-2858-48aa-8105-37e7811cc441": {
-      "location": "apps/aayush's_magnificent_app/428ec6ba-2858-48aa-8105-37e7811cc441",
-      "lastUpdated": 1686691867474,
-      "resourceType": "APPLICATION"
-    },
-    "4a7c73c4-b958-41cd-a5ab-06fca1518969": {
-      "location": "apps/aayush's_extraordinary_app/4a7c73c4-b958-41cd-a5ab-06fca1518969",
-      "lastUpdated": 1686691867474,
-      "resourceType": "APPLICATION"
-    },
-    "ce95f180-c68b-4d17-a56c-b311cedbffa3": {
-      "location": "apps/aayushs_demo_app/ce95f180-c68b-4d17-a56c-b311cedbffa3",
-      "lastUpdated": 1686691867474,
+    "264d7c93-ab17-46f3-9a9d-5966f6cca064": {
+      "location": "apps/ahmet's_awesome_app/264d7c93-ab17-46f3-9a9d-5966f6cca064",
+      "lastUpdated": 1689369212561,
       "resourceType": "APPLICATION"
     }
   },
   "metadata": {
     "cliVersion": "0.0.1",
-    "remote": "http://localhost:3000/",
-    "lastUpdated": 1686691862504,
+    "remote": "https://pr-4646.superblocks.dev/",
+    "lastUpdated": 1689369206024,
     "created": 1686687922567
   }
 }
