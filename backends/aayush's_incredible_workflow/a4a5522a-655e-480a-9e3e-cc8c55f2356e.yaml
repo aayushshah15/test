@@ -1,0 +1,54 @@
+id: a4a5522a-655e-480a-9e3e-cc8c55f2356e
+name: Aayush's Incredible Workflow
+applicationId: null
+organizationId: 3492f7ec-e1d6-4342-84e9-f42d40e1c05c
+triggerType: 1
+updated: 1689370491043
+folderId: null
+isDeployed: false
+deployedCommitId: null
+sendEmailOnFailure: true
+creator: {}
+actions:
+  name: Aayush's Incredible Workflow
+  actions: {}
+  bindings: []
+  triggerType: 1
+  workflowParams:
+    - key: body
+      value: {}
+  supportedMethod: POST
+  triggerActionId: 746f29ab-33b4-4479-8528-aee43ca58d1d
+  workflowQueries:
+    - key: params
+      value: {}
+apiPb:
+  blocks: []
+  trigger:
+    workflow:
+      options:
+        profiles: {}
+      parameters:
+        body: {}
+        query: {}
+  metadata:
+    id: a4a5522a-655e-480a-9e3e-cc8c55f2356e
+    name: Aayush's Incredible Workflow
+    tags: {}
+    folder: ""
+    version: ""
+    timestamps: {}
+    description: ""
+    organization: 3492f7ec-e1d6-4342-84e9-f42d40e1c05c
+settings:
+  profiles:
+    editor:
+      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
+    deployed:
+      defaultProfileId: 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
