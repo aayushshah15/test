@@ -1,39 +1,39 @@
+id: 45dc87b1-4e20-4061-8838-1be81786e318
+name: Aayush's Mighty App
+organizationId: 3492f7ec-e1d6-4342-84e9-f42d40e1c05c
+isPublic: false
+deletedAt: null
+isDeployed: false
+deployedCommitId: null
+isEditable: true
+updated: 2023-07-14T21:36:20.686Z
 created: 2023-07-14T21:36:20.686Z
+folderId: null
 creator:
   id: fa7f04cf-3536-451a-bb85-12b2dec32e43
   name: Aayush Shah
-deletedAt: null
-deployedCommitId: null
-folderId: null
-id: 45dc87b1-4e20-4061-8838-1be81786e318
-isDeployed: false
-isEditable: true
-isPublic: false
-name: Aayush's Mighty App
-organizationId: 3492f7ec-e1d6-4342-84e9-f42d40e1c05c
-pages:
-  - id: 789b46cc-e257-45a6-86b3-e6e4053cc5d3
-    isDefault: true
-settings:
-  profiles:
-    deployed:
-      availableProfileIds:
-        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
-        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
-      defaultProfileId: 4109483a-9918-4cf1-99b8-576fd6dcdb5a
-    editor:
-      availableProfileIds:
-        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
-        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
-      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
-    preview:
-      availableProfileIds:
-        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
-        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
-      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
-updated: 2023-07-14T21:36:20.686Z
 userPermissions:
   - manage:applications
   - read:applications
   - publish:applications
   - makePublic:applications
+pages:
+  - id: 789b46cc-e257-45a6-86b3-e6e4053cc5d3
+    isDefault: true
+settings:
+  profiles:
+    editor:
+      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
+    preview:
+      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
+    deployed:
+      defaultProfileId: 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7

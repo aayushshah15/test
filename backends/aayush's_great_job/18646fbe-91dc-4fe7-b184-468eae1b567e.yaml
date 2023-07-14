@@ -1,0 +1,91 @@
+id: 18646fbe-91dc-4fe7-b184-468eae1b567e
+name: Aayush's Great Job
+applicationId: null
+organizationId: 3492f7ec-e1d6-4342-84e9-f42d40e1c05c
+triggerType: 2
+updated: 1689370721685
+folderId: null
+isDeployed: false
+deployedCommitId: null
+sendEmailOnFailure: true
+creator: {}
+actions:
+  name: Aayush's Great Job
+  actions: {}
+  bindings: []
+  schedule:
+    time: 2023-07-14T04:00:00.000Z
+    interval: month
+    frequency: 1
+    dayOfMonth: 1
+    daysOfWeek:
+      - true
+      - false
+      - false
+      - false
+      - false
+      - false
+      - false
+  triggerType: 2
+  workflowParams:
+    - key: body
+      value: {}
+  supportedMethod: POST
+  triggerActionId: 0653df97-09e0-4319-8d86-831621766296
+  workflowQueries:
+    - key: params
+      value: {}
+apiPb:
+  blocks: []
+  trigger:
+    job:
+      days:
+        friday: false
+        monday: false
+        sunday: true
+        tuesday: false
+        saturday: false
+        thursday: false
+        wednesday: false
+      time: 2023-07-14T04:00:00Z
+      options:
+        profiles:
+          modes:
+            editor:
+              default: 8ee30517-2deb-4e83-bc0f-9080046f62c7
+              available:
+                - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+                - 8ee30517-2deb-4e83-bc0f-9080046f62c7
+            preview:
+              default: ""
+              available: []
+            deployed:
+              default: 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+              available:
+                - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+                - 8ee30517-2deb-4e83-bc0f-9080046f62c7
+        sendEmailOnFailure: true
+      interval: INTERVAL_MONTH
+      frequency: 1
+      dayOfMonth: 1
+  metadata:
+    id: 18646fbe-91dc-4fe7-b184-468eae1b567e
+    name: Aayush's Great Job
+    tags: {}
+    folder: ""
+    version: ""
+    timestamps: {}
+    description: ""
+    organization: 3492f7ec-e1d6-4342-84e9-f42d40e1c05c
+settings:
+  profiles:
+    editor:
+      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
+    deployed:
+      defaultProfileId: 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7

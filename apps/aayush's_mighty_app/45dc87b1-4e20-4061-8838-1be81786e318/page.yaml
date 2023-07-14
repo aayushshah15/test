@@ -1,31 +1,31 @@
-applicationId: 45dc87b1-4e20-4061-8838-1be81786e318
 id: 789b46cc-e257-45a6-86b3-e6e4053cc5d3
-isHidden: false
+applicationId: 45dc87b1-4e20-4061-8838-1be81786e318
+updated: 2023-07-14T21:37:20.247Z
+name: Page1
 layouts:
-  - actionUpdates: []
+  - id: 91941963-52f6-4431-bae2-74677f132d5e
     dsl:
-      backgroundColor: none
+      type: CANVAS_WIDGET
+      topRow: 0
+      version: 6
+      children: []
+      snapRows: 99
+      widgetId: "0"
       bottomRow: 99
+      canExtend: true
+      minHeight: 1292
       cachedData:
         apiDeps: {}
         apiNames: []
-      canExtend: true
-      children: []
+      widgetName: MainContainer
+      snapColumns: 96
       containerStyle: none
+      backgroundColor: none
       detachFromLayout: true
       dynamicBindingPathList: []
-      minHeight: 1292
-      snapColumns: 96
-      snapRows: 99
-      topRow: 0
-      type: CANVAS_WIDGET
-      version: 6
-      widgetId: "0"
-      widgetName: MainContainer
-    id: 91941963-52f6-4431-bae2-74677f132d5e
+    updated: 2023-07-14T21:37:20.247Z
+    actionUpdates: []
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-07-14T21:37:20.247Z
     userPermissions: []
-name: Page1
-updated: 2023-07-14T21:37:20.247Z
+isHidden: false
