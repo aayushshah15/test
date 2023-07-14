@@ -1,39 +1,39 @@
+id: 264d7c93-ab17-46f3-9a9d-5966f6cca064
+name: Ahmet's Awesome App
+organizationId: 3492f7ec-e1d6-4342-84e9-f42d40e1c05c
+isPublic: false
+deletedAt: null
+isDeployed: false
+deployedCommitId: null
+isEditable: true
+updated: 2023-07-14T20:46:07.297Z
 created: 2023-07-14T20:46:07.297Z
+folderId: null
 creator:
   id: e964c654-767f-4e76-84fe-ceccc60a0bee
   name: Ahmet Kucuk
-deletedAt: null
-deployedCommitId: null
-folderId: null
-id: 264d7c93-ab17-46f3-9a9d-5966f6cca064
-isDeployed: false
-isEditable: true
-isPublic: false
-name: Ahmet's Awesome App
-organizationId: 3492f7ec-e1d6-4342-84e9-f42d40e1c05c
-pages:
-  - id: 93719bdf-d0cf-45c6-8002-a3aa50f87815
-    isDefault: true
-settings:
-  profiles:
-    deployed:
-      availableProfileIds:
-        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
-        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
-      defaultProfileId: 4109483a-9918-4cf1-99b8-576fd6dcdb5a
-    editor:
-      availableProfileIds:
-        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
-        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
-      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
-    preview:
-      availableProfileIds:
-        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
-        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
-      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
-updated: 2023-07-14T20:46:07.297Z
 userPermissions:
   - manage:applications
   - read:applications
   - publish:applications
   - makePublic:applications
+pages:
+  - id: 93719bdf-d0cf-45c6-8002-a3aa50f87815
+    isDefault: true
+settings:
+  profiles:
+    editor:
+      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
+    preview:
+      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
+    deployed:
+      defaultProfileId: 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
