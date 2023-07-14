@@ -1,0 +1,99 @@
+actions:
+  actions:
+    620fffc6-8fd1-4a75-b8f6-1718b6099dec:
+      applicationId: 264d7c93-ab17-46f3-9a9d-5966f6cca064
+      configuration:
+        body: >
+          # Use Python to:
+
+          #
+
+          # 1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
+
+          # 2. Write logic referencing UI components (ex. Table1.selectedRow.id)
+
+          # 3. Make http calls using requests (import requests)
+
+          #
+
+          # More libraries are coming in the future. Superblocks uses Python 3.
+
+
+          return { "value": "Hello Superblocks!" }
+        superblocksMetadata:
+          pluginVersion: 0.0.7
+      datasourceId: python
+      id: 620fffc6-8fd1-4a75-b8f6-1718b6099dec
+      name: Step1
+      pluginId: python
+      type: 0
+  bindings: []
+  name: API1
+  triggerActionId: 620fffc6-8fd1-4a75-b8f6-1718b6099dec
+  triggerType: 0
+  workflowParams:
+    - key: body
+      value: {}
+  workflowQueries:
+    - key: params
+      value: {}
+apiPb:
+  blocks:
+    - name: Step1
+      step:
+        integration: python
+        python:
+          body: >
+            # Use Python to:
+
+            #
+
+            # 1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
+
+            # 2. Write logic referencing UI components (ex. Table1.selectedRow.id)
+
+            # 3. Make http calls using requests (import requests)
+
+            #
+
+            # More libraries are coming in the future. Superblocks uses Python 3.
+
+
+            return { "value": "Hello Superblocks!" }
+          superblocksMetadata:
+            pluginVersion: 0.0.7
+  metadata:
+    description: ""
+    folder: ""
+    id: 50cb6ab4-eef5-4ec8-b78b-eb088218d7b0
+    name: API1
+    organization: 3492f7ec-e1d6-4342-84e9-f42d40e1c05c
+    tags: {}
+    timestamps: {}
+    version: ""
+  trigger:
+    application:
+      id: 264d7c93-ab17-46f3-9a9d-5966f6cca064
+      options: {}
+applicationId: 264d7c93-ab17-46f3-9a9d-5966f6cca064
+creator: {}
+folderId: null
+id: 50cb6ab4-eef5-4ec8-b78b-eb088218d7b0
+isDeployed: false
+name: API1
+organizationId: 3492f7ec-e1d6-4342-84e9-f42d40e1c05c
+sendEmailOnFailure: null
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
+      defaultProfileId: 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+    editor:
+      availableProfileIds:
+        - 4109483a-9918-4cf1-99b8-576fd6dcdb5a
+        - 8ee30517-2deb-4e83-bc0f-9080046f62c7
+      defaultProfileId: 8ee30517-2deb-4e83-bc0f-9080046f62c7
+triggerType: 0
+updated: 1689367573859

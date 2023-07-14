@@ -1,51 +1,22 @@
-id: 93719bdf-d0cf-45c6-8002-a3aa50f87815
 applicationId: 264d7c93-ab17-46f3-9a9d-5966f6cca064
-updated: 2023-07-14T21:18:01.094Z
-name: Page1
+id: 93719bdf-d0cf-45c6-8002-a3aa50f87815
+isHidden: false
 layouts:
-  - id: ecc375e5-020d-4f01-89ba-a8e2ca5d9835
+  - actionUpdates: []
     dsl:
       apis:
         apiMap:
           50cb6ab4-eef5-4ec8-b78b-eb088218d7b0:
+            dynamicTriggerPathList:
+              - key: onError
             id: 50cb6ab4-eef5-4ec8-b78b-eb088218d7b0
             onError:
               - id: 382b016b-ce13-435a-9275-54d21a8bb267
-                type: showAlert
-                style: error
                 message: "{{API1.error}}"
-            dynamicTriggerPathList:
-              - key: onError
-      type: CANVAS_WIDGET
-      topRow: 0
-      version: 6
-      children:
-        - text: "{{API1.response.value}}"
-          type: TEXT_WIDGET
-          topRow: 11
-          parentId: "0"
-          textType: text
-          widgetId: 12mbxs6ei8
-          bottomRow: 14
-          isLoading: false
-          isVisible: true
-          textAlign: LEFT
-          textStyle: LABEL
-          leftColumn: 26
-          widgetName: Text1
-          rightColumn: 38
-          snapColumns: 12
-          verticalAlign: AUTO
-          animateLoading: true
-          widgetLastChange: 2023-07-14T20:46:40.637Z
-          dynamicBindingPathList:
-            - key: text
-          dynamicTriggerPathList: []
-      snapRows: 99
-      widgetId: "0"
+                style: error
+                type: showAlert
+      backgroundColor: none
       bottomRow: 107
-      canExtend: true
-      minHeight: 1292
       cachedData:
         apiDeps: {}
         apiNames: []
@@ -54,17 +25,46 @@ layouts:
             API1: []
           apiNames:
             - API1
-      widgetName: MainContainer
-      snapColumns: 96
+      canExtend: true
+      children:
+        - animateLoading: true
+          bottomRow: 14
+          dynamicBindingPathList:
+            - key: text
+          dynamicTriggerPathList: []
+          isLoading: false
+          isVisible: true
+          leftColumn: 26
+          parentId: "0"
+          rightColumn: 38
+          snapColumns: 12
+          text: "{{API1.response.value}}"
+          textAlign: LEFT
+          textStyle: LABEL
+          textType: text
+          topRow: 11
+          type: TEXT_WIDGET
+          verticalAlign: AUTO
+          widgetId: 12mbxs6ei8
+          widgetLastChange: 2023-07-14T20:46:40.637Z
+          widgetName: Text1
       containerStyle: none
-      backgroundColor: none
       detachFromLayout: true
-      widgetLastChange: 2023-07-14T20:46:28.866Z
       dynamicBindingPathList: []
       dynamicTriggerPathList: []
-    updated: 2023-07-14T21:18:01.094Z
-    actionUpdates: []
+      minHeight: 1292
+      snapColumns: 96
+      snapRows: 99
+      topRow: 0
+      type: CANVAS_WIDGET
+      version: 6
+      widgetId: "0"
+      widgetLastChange: 2023-07-14T20:46:28.866Z
+      widgetName: MainContainer
+    id: ecc375e5-020d-4f01-89ba-a8e2ca5d9835
     layoutOnLoadActions: []
     messages: []
+    updated: 2023-07-14T21:32:25.197Z
     userPermissions: []
-isHidden: false
+name: Page1
+updated: 2023-07-14T21:32:25.197Z
