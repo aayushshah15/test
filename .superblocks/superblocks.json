@@ -2,14 +2,19 @@
   "resources": {
     "264d7c93-ab17-46f3-9a9d-5966f6cca064": {
       "location": "apps/ahmet's_awesome_app/264d7c93-ab17-46f3-9a9d-5966f6cca064",
-      "lastUpdated": 1689369212561,
+      "lastUpdated": 1689369891236,
       "resourceType": "APPLICATION"
+    },
+    "c592561a-ecaf-4ee7-b8d2-e83096784dae": {
+      "location": "backends/aayush's_mighty_workflow",
+      "lastUpdated": 1689369891236,
+      "resourceType": "BACKEND"
     }
   },
   "metadata": {
     "cliVersion": "0.0.1",
     "remote": "https://pr-4646.superblocks.dev/",
-    "lastUpdated": 1689369206024,
+    "lastUpdated": 1689369884897,
     "created": 1686687922567
   }
 }
