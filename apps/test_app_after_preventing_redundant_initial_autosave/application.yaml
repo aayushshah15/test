@@ -1,0 +1,20 @@
+created: 2023-07-26T17:44:07.011Z
+creator:
+  id: 8854dd73-4739-41b4-8fb3-97f3b4a28835
+  name: Aayush Shah
+deletedAt: null
+deployedAt: null
+deployedCommitId: null
+folderId: null
+id: 112697e7-8758-4eab-b3d6-2ca1c05bfbeb
+isDeployed: false
+isEditable: true
+isPublic: false
+name: test app after preventing redundant initial autosave
+organizationId: 47278866-8fef-4750-a6af-2395394d900b
+updated: 2023-07-26T17:44:07.011Z
+userPermissions:
+  - manage:applications
+  - read:applications
+  - publish:applications
+  - makePublic:applications
