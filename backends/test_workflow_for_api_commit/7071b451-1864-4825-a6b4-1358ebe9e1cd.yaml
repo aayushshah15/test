@@ -1,0 +1,54 @@
+id: 7071b451-1864-4825-a6b4-1358ebe9e1cd
+name: test workflow for api commit
+applicationId: null
+organizationId: 47278866-8fef-4750-a6af-2395394d900b
+triggerType: 1
+updated: 1690826440366
+folderId: null
+isDeployed: false
+deployedCommitId: null
+sendEmailOnFailure: true
+creator: {}
+actions:
+  name: test workflow for api commit
+  actions: {}
+  bindings: []
+  triggerType: 1
+  workflowParams:
+    - key: body
+      value: {}
+  supportedMethod: POST
+  triggerActionId: 77257e24-5929-4dba-8739-03b33348c4c9
+  workflowQueries:
+    - key: params
+      value: {}
+apiPb:
+  blocks: []
+  trigger:
+    workflow:
+      options:
+        profiles: {}
+      parameters:
+        body: {}
+        query: {}
+  metadata:
+    id: 7071b451-1864-4825-a6b4-1358ebe9e1cd
+    name: test workflow for api commit
+    tags: {}
+    folder: ""
+    version: ""
+    timestamps: {}
+    description: ""
+    organization: 47278866-8fef-4750-a6af-2395394d900b
+settings:
+  profiles:
+    editor:
+      defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+    deployed:
+      defaultProfileId: 125970b6-0a0e-41b8-90ec-bf087d77d584
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
