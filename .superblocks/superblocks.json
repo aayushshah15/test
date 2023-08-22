@@ -1,15 +1,16 @@
 {
   "configType": "ROOT",
   "metadata": {
-    "cliVersion": "0.0.14",
-    "created": "2023-07-31T19:02:33.848Z",
-    "lastUpdated": "2023-07-31T19:02:33.848Z",
-    "remote": "http://127.0.0.1:3000"
+    "cliVersion": "0.0.22"
   },
   "resources": {
     "112697e7-8758-4eab-b3d6-2ca1c05bfbeb": {
       "lastUpdated": "2023-07-31T19:02:48.619Z",
       "location": "apps/test_app_after_preventing_redundant_initial_autosave",
+      "resourceType": "APPLICATION"
+    },
+    "1f1e2d01-1d1b-407b-a2a1-ba4185c118a7": {
+      "location": "apps/api_rename_test",
       "resourceType": "APPLICATION"
     }
   }

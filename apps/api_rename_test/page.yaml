@@ -1,0 +1,46 @@
+applicationId: 1f1e2d01-1d1b-407b-a2a1-ba4185c118a7
+id: 470cf92a-e1fa-45b3-82de-7ff4cae80148
+isHidden: false
+layouts:
+  - actionUpdates: []
+    dsl:
+      apis:
+        apiMap:
+          c4c58e3e-2efa-4b9f-8ffd-9f60c1f27631:
+            dynamicTriggerPathList:
+              - key: onError
+            id: c4c58e3e-2efa-4b9f-8ffd-9f60c1f27631
+            onError:
+              - id: 19f47cee-da46-4448-b7d0-47fe94aafe9c
+                message: "{{API1.error}}"
+                style: error
+                type: showAlert
+      backgroundColor: none
+      bottomRow: 99
+      cachedData:
+        apiDeps: {}
+        apiNames: []
+        pageLoadActions:
+          apiDeps: {}
+          apiNames: []
+      canExtend: true
+      children: []
+      containerStyle: none
+      detachFromLayout: true
+      dynamicBindingPathList: []
+      minHeight: 1292
+      snapColumns: 96
+      snapRows: 99
+      topRow: 0
+      type: CANVAS_WIDGET
+      version: 6
+      widgetId: "0"
+      widgetLastChange: 2023-08-22T14:22:58.348Z
+      widgetName: MainContainer
+    id: b7d795d1-8cc5-4258-967b-ec2907e49212
+    layoutOnLoadActions: []
+    messages: []
+    updated: 2023-08-22T14:22:58.988Z
+    userPermissions: []
+name: Page1
+updated: 2023-08-22T14:22:58.988Z

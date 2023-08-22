@@ -1,0 +1,40 @@
+created: 2023-08-22T14:22:50.038Z
+creator:
+  id: 8854dd73-4739-41b4-8fb3-97f3b4a28835
+  name: Aayush Shah
+deletedAt: null
+deployedAt: null
+deployedCommitId: null
+folderId: null
+id: 1f1e2d01-1d1b-407b-a2a1-ba4185c118a7
+isDeployed: false
+isEditable: true
+isPublic: false
+name: "api rename test "
+organizationId: 47278866-8fef-4750-a6af-2395394d900b
+pages:
+  - id: 470cf92a-e1fa-45b3-82de-7ff4cae80148
+    isDefault: true
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: 125970b6-0a0e-41b8-90ec-bf087d77d584
+    editor:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+    preview:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+updated: 2023-08-22T14:22:58.942Z
+userPermissions:
+  - manage:applications
+  - read:applications
+  - publish:applications
+  - makePublic:applications
