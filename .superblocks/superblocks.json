@@ -12,6 +12,10 @@
     "1f1e2d01-1d1b-407b-a2a1-ba4185c118a7": {
       "location": "apps/api_rename_test",
       "resourceType": "APPLICATION"
+    },
+    "2ac2696f-2003-4d81-82da-9a712a8eca0e": {
+      "location": "apps/aayush_bugbash_app",
+      "resourceType": "APPLICATION"
     }
   }
 }
