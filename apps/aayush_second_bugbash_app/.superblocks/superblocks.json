@@ -1,6 +1,7 @@
 {
   "apis": {
-    "93853ff8-cfce-4557-a42c-cde168108bcd": "API1"
+    "93853ff8-cfce-4557-a42c-cde168108bcd": "API1",
+    "c64eba04-1385-445b-a2a7-abb2fbe20f66": "API2"
   },
   "configType": "APPLICATION",
   "defaultPageId": "dc6fe4fa-9f3e-4e07-8d53-afc2dfbd54a8",
