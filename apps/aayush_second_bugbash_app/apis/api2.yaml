@@ -19,6 +19,29 @@ apiPb:
             console.log(obj.str);
 
             return obj;
+    - name: Step2
+      step:
+        integration: be2bff92-a818-4e66-bbaf-323c6da800a7
+        s3:
+          action: GET_OBJECT
+          body: ""
+          custom:
+            presignedExpiration:
+              defaultValue: ""
+              description: ""
+              editable: false
+              internal: false
+              key: ""
+              mandatory: false
+              maxRange: ""
+              minRange: ""
+              type: ""
+              value: 600
+              valueOptions: []
+          fileObjects: ""
+          path: ""
+          resource: ""
+          responseType: text
   metadata:
     description: ""
     folder: ""
@@ -51,4 +74,4 @@ settings:
         - 0b000717-9c95-4c33-a007-d8d1f5d58ad1
       defaultProfileId: 0b000717-9c95-4c33-a007-d8d1f5d58ad1
 triggerType: 0
-updated: 1693498120880
+updated: 1693498142311
