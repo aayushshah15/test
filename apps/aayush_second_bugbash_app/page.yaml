@@ -15,6 +15,15 @@ layouts:
                 message: "{{API1.error}}"
                 style: error
                 type: showAlert
+          994c6da8-d870-48ca-a879-19623f549bdb:
+            dynamicTriggerPathList:
+              - key: onError
+            id: 994c6da8-d870-48ca-a879-19623f549bdb
+            onError:
+              - id: 98d15c0b-eedc-4f75-94c5-4fa1df21f357
+                message: "{{API3.error}}"
+                style: error
+                type: showAlert
           c64eba04-1385-445b-a2a7-abb2fbe20f66:
             dynamicTriggerPathList:
               - key: onError
@@ -314,12 +323,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-08-31T16:08:40.878Z
+      widgetLastChange: 2023-08-31T16:09:42.576Z
       widgetName: MainContainer
     id: 5eca388c-d2a0-43f0-8d7c-33150a577d65
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-08-31T16:09:11.989Z
+    updated: 2023-08-31T16:09:49.864Z
     userPermissions: []
 name: Page1
-updated: 2023-08-31T16:09:11.989Z
+updated: 2023-08-31T16:09:49.864Z
