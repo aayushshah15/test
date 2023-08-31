@@ -16,6 +16,10 @@
     "2ac2696f-2003-4d81-82da-9a712a8eca0e": {
       "location": "apps/aayush_bugbash_app",
       "resourceType": "APPLICATION"
+    },
+    "8e045c20-83ed-4bae-882f-b7105801abf5": {
+      "location": "apps/aayush_second_bugbash_app",
+      "resourceType": "APPLICATION"
     }
   }
 }
