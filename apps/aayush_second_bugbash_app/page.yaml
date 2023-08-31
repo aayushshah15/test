@@ -15,7 +15,7 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 48
+          bottomRow: 64
           cachedColumnSettings: {}
           columnOrder:
             - photo
@@ -64,7 +64,7 @@ layouts:
           isSearchable: true
           isVisible: true
           label: Data
-          leftColumn: 6
+          leftColumn: 2
           onCancelChanges:
             - id: asy7hwqrdk
               newWindow: true
@@ -80,6 +80,7 @@ layouts:
             action:
               buttonLabel: Approve
               buttonStyle: "#27BBFF"
+              buttonVariant: TERTIARY_BUTTON
               columnType: button
               computedValue: "{{Table1.tableDataWithInserts.map((currentRow) => { return
                 currentRow.action })}}"
@@ -212,9 +213,9 @@ layouts:
               textSize: PARAGRAPH
               verticalAlignment: CENTER
               width: 150
-          rightColumn: 96
-          snapColumns: 90
-          snapRows: 31
+          rightColumn: 94
+          snapColumns: 92
+          snapRows: 62
           tableData: >-
             [
               {
@@ -276,11 +277,11 @@ layouts:
             ]
           tableHeader: Users
           textSize: PARAGRAPH
-          topRow: 17
+          topRow: 2
           type: TABLE_WIDGET
           verticalAlignment: CENTER
           widgetId: 2t6xg4nsx8
-          widgetLastChange: 2023-08-31T15:42:57.662Z
+          widgetLastChange: 2023-08-31T15:46:33.209Z
           widgetName: Table1
       containerStyle: none
       detachFromLayout: true
@@ -293,12 +294,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-08-31T15:42:55.714Z
+      widgetLastChange: 2023-08-31T15:46:26.541Z
       widgetName: MainContainer
     id: 5eca388c-d2a0-43f0-8d7c-33150a577d65
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-08-31T15:42:57.932Z
+    updated: 2023-08-31T15:46:41.996Z
     userPermissions: []
 name: Page1
-updated: 2023-08-31T15:42:57.932Z
+updated: 2023-08-31T15:46:41.996Z
