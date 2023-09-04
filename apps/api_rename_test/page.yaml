@@ -15,6 +15,15 @@ layouts:
                 message: "{{API1asdsadas.error}}"
                 style: error
                 type: showAlert
+          4d734d68-b87e-48a3-b4fb-80bbc7419b3d:
+            dynamicTriggerPathList:
+              - key: onError
+            id: 4d734d68-b87e-48a3-b4fb-80bbc7419b3d
+            onError:
+              - id: 46eee30c-7aa1-45ea-8874-ea2206d802e6
+                message: "{{API1.error}}"
+                style: error
+                type: showAlert
           c4c58e3e-2efa-4b9f-8ffd-9f60c1f27631:
             dynamicTriggerPathList:
               - key: onError
@@ -431,12 +440,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-09-04T08:42:43.378Z
+      widgetLastChange: 2023-09-04T08:43:26.051Z
       widgetName: MainContainer
     id: b7d795d1-8cc5-4258-967b-ec2907e49212
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-09-04T08:43:19.558Z
+    updated: 2023-09-04T08:43:32.079Z
     userPermissions: []
 name: Page1
-updated: 2023-09-04T08:43:19.558Z
+updated: 2023-09-04T08:43:32.079Z
