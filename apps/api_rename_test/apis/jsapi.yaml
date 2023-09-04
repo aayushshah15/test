@@ -23,7 +23,7 @@ apiPb:
     description: ""
     folder: ""
     id: 4d734d68-b87e-48a3-b4fb-80bbc7419b3d
-    name: API1
+    name: JSAPI
     organization: 47278866-8fef-4750-a6af-2395394d900b
     tags: {}
     version: ""
@@ -35,7 +35,7 @@ creator: {}
 folderId: ""
 id: 4d734d68-b87e-48a3-b4fb-80bbc7419b3d
 isDeployed: false
-name: API1
+name: JSAPI
 organizationId: 47278866-8fef-4750-a6af-2395394d900b
 sendEmailOnFailure: null
 settings:
@@ -51,4 +51,4 @@ settings:
         - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
       defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
 triggerType: 0
-updated: 1693817005910
+updated: 1693817027638

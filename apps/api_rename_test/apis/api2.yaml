@@ -1,0 +1,62 @@
+apiPb:
+  blocks:
+    - name: Step1
+      step:
+        integration: restapi
+        restapi:
+          body: ""
+          bodyType: jsonBody
+          fileFormKey: file
+          fileName: ""
+          formData:
+            - key: ""
+              value: ""
+              valueOptions: []
+          headers:
+            - key: Content-Type
+              value: application/json
+              valueOptions: []
+            - key: ""
+              value: ""
+              valueOptions: []
+          httpMethod: GET
+          jsonBody: ""
+          params:
+            - key: ""
+              value: ""
+              valueOptions: []
+          path: ""
+          responseType: auto
+  metadata:
+    description: ""
+    folder: ""
+    id: c54fe26d-4eb2-4482-afab-b37b0e7557a7
+    name: API2
+    organization: 47278866-8fef-4750-a6af-2395394d900b
+    tags: {}
+    version: ""
+  trigger:
+    application:
+      id: 1f1e2d01-1d1b-407b-a2a1-ba4185c118a7
+applicationId: 1f1e2d01-1d1b-407b-a2a1-ba4185c118a7
+creator: {}
+folderId: ""
+id: c54fe26d-4eb2-4482-afab-b37b0e7557a7
+isDeployed: false
+name: API2
+organizationId: 47278866-8fef-4750-a6af-2395394d900b
+sendEmailOnFailure: null
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: 125970b6-0a0e-41b8-90ec-bf087d77d584
+    editor:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+triggerType: 0
+updated: 1693817018155

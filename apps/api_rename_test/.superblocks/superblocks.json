@@ -1,8 +1,9 @@
 {
   "apis": {
     "24a84503-d780-4a33-8327-d4d947332df0": "API1asdsadas",
-    "4d734d68-b87e-48a3-b4fb-80bbc7419b3d": "API1",
-    "c4c58e3e-2efa-4b9f-8ffd-9f60c1f27631": "renamed_again_again"
+    "4d734d68-b87e-48a3-b4fb-80bbc7419b3d": "JSAPI",
+    "c4c58e3e-2efa-4b9f-8ffd-9f60c1f27631": "renamed_again_again",
+    "c54fe26d-4eb2-4482-afab-b37b0e7557a7": "API2"
   },
   "configType": "APPLICATION",
   "defaultPageId": "470cf92a-e1fa-45b3-82de-7ff4cae80148",
