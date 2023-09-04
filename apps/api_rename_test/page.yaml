@@ -35,22 +35,22 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 50
+          bottomRow: 48
           isLoading: false
           isVisible: true
-          leftColumn: 41
+          leftColumn: 12
           parentId: "0"
-          rightColumn: 53
+          rightColumn: 24
           snapColumns: 12
           text: Label
           textAlign: LEFT
           textStyle: LABEL
           textType: text
-          topRow: 47
+          topRow: 45
           type: TEXT_WIDGET
           verticalAlign: AUTO
           widgetId: 7xezbe1ony
-          widgetLastChange: 2023-09-04T08:42:08.571Z
+          widgetLastChange: 2023-09-04T08:42:43.378Z
           widgetName: Text1
         - animateLoading: true
           bottomRow: 41
@@ -318,8 +318,108 @@ layouts:
           type: TABLE_WIDGET
           verticalAlignment: CENTER
           widgetId: noojvgcn85
-          widgetLastChange: 2023-09-04T08:42:16.450Z
+          widgetLastChange: 2023-09-04T08:42:43.378Z
           widgetName: Table1
+        - backgroundColor: white
+          bottomRow: 82
+          children:
+            - bottomRow: 39
+              canExtend: false
+              children:
+                - animateLoading: true
+                  bottomRow: 3
+                  isLoading: false
+                  isVisible: true
+                  leftColumn: 0
+                  parentId: qe0qr9f8p1
+                  rightColumn: 42
+                  snapColumns: 42
+                  text: Form
+                  textAlign: LEFT
+                  textStyle: HEADING
+                  textType: text
+                  topRow: 0
+                  type: TEXT_WIDGET
+                  verticalAlign: AUTO
+                  widgetId: 9e2817tyei
+                  widgetLastChange: 2023-09-04T08:42:48.362Z
+                  widgetName: Text2
+                - animateLoading: true
+                  bottomRow: 36
+                  buttonStyle: PRIMARY_BUTTON
+                  disabledWhenInvalid: true
+                  dynamicBindingPathList: []
+                  dynamicTriggerPathList:
+                    - key: onClick
+                  isDefaultClickDisabled: true
+                  isLoading: false
+                  isVisible: true
+                  leftColumn: 56
+                  onClick:
+                    - id: 28a3yyjha5
+                      newWindow: true
+                  parentId: qe0qr9f8p1
+                  resetFormOnClick: true
+                  rightColumn: 66
+                  snapColumns: 10
+                  snapRows: 3
+                  text: Submit
+                  topRow: 33
+                  type: FORM_BUTTON_WIDGET
+                  widgetId: h7ah4erdqu
+                  widgetLastChange: 2023-09-04T08:43:08.384Z
+                  widgetName: FormButton1
+                - animateLoading: true
+                  bottomRow: 36
+                  buttonStyle: SECONDARY_BUTTON
+                  disabledWhenInvalid: false
+                  dynamicBindingPathList: []
+                  dynamicTriggerPathList:
+                    - key: onClick
+                  isDefaultClickDisabled: true
+                  isLoading: false
+                  isVisible: true
+                  leftColumn: 44
+                  onClick:
+                    - id: cs9x8t91bf
+                      newWindow: true
+                  parentId: qe0qr9f8p1
+                  resetFormOnClick: true
+                  rightColumn: 54
+                  snapColumns: 10
+                  snapRows: 3
+                  text: Reset
+                  topRow: 33
+                  type: FORM_BUTTON_WIDGET
+                  widgetId: goqirj8egj
+                  widgetLastChange: 2023-09-04T08:43:05.926Z
+                  widgetName: FormButton2
+              containerStyle: none
+              detachFromLayout: true
+              isLoading: false
+              isVisible: true
+              minHeight: 468
+              parentId: ul3sbnuvdr
+              rightColumn: 66
+              snapColumns: 66
+              snapRows: 39
+              topRow: 0
+              type: CANVAS_WIDGET
+              widgetId: qe0qr9f8p1
+              widgetLastChange: 2023-09-04T08:42:48.362Z
+              widgetName: Canvas1
+          isLoading: false
+          isVisible: true
+          leftColumn: 24
+          parentId: "0"
+          rightColumn: 90
+          snapColumns: 66
+          snapRows: 39
+          topRow: 43
+          type: FORM_WIDGET
+          widgetId: ul3sbnuvdr
+          widgetLastChange: 2023-09-04T08:42:48.362Z
+          widgetName: Form1
       containerStyle: none
       detachFromLayout: true
       dynamicBindingPathList: []
@@ -331,12 +431,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-09-04T08:42:08.571Z
+      widgetLastChange: 2023-09-04T08:42:43.378Z
       widgetName: MainContainer
     id: b7d795d1-8cc5-4258-967b-ec2907e49212
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-09-04T08:42:22.512Z
+    updated: 2023-09-04T08:43:19.558Z
     userPermissions: []
 name: Page1
-updated: 2023-09-04T08:42:22.512Z
+updated: 2023-09-04T08:43:19.558Z
