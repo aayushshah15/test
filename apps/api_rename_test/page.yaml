@@ -50,10 +50,10 @@ layouts:
           type: TEXT_WIDGET
           verticalAlign: AUTO
           widgetId: 7xezbe1ony
-          widgetLastChange: 2023-09-04T08:37:27.009Z
+          widgetLastChange: 2023-09-04T08:42:08.571Z
           widgetName: Text1
         - animateLoading: true
-          bottomRow: 44
+          bottomRow: 41
           cachedColumnSettings: {}
           columnOrder:
             - photo
@@ -102,7 +102,7 @@ layouts:
           isSearchable: true
           isVisible: true
           label: Data
-          leftColumn: 19
+          leftColumn: 1
           onCancelChanges:
             - id: mrdvnocc0p
               newWindow: true
@@ -250,9 +250,9 @@ layouts:
               textSize: PARAGRAPH
               verticalAlignment: CENTER
               width: 150
-          rightColumn: 71
-          snapColumns: 52
-          snapRows: 38
+          rightColumn: 95
+          snapColumns: 94
+          snapRows: 35
           tableData: >-
             [
               {
@@ -318,7 +318,7 @@ layouts:
           type: TABLE_WIDGET
           verticalAlignment: CENTER
           widgetId: noojvgcn85
-          widgetLastChange: 2023-09-04T08:37:29.283Z
+          widgetLastChange: 2023-09-04T08:42:16.450Z
           widgetName: Table1
       containerStyle: none
       detachFromLayout: true
@@ -331,12 +331,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-09-04T08:37:20.729Z
+      widgetLastChange: 2023-09-04T08:42:08.571Z
       widgetName: MainContainer
     id: b7d795d1-8cc5-4258-967b-ec2907e49212
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-09-04T08:37:38.060Z
+    updated: 2023-09-04T08:42:22.512Z
     userPermissions: []
 name: Page1
-updated: 2023-09-04T08:37:38.060Z
+updated: 2023-09-04T08:42:22.512Z
