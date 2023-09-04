@@ -1,0 +1,45 @@
+apiPb:
+  blocks:
+    - name: Step1
+      step:
+        integration: e5c27625-1cf9-4aa0-8812-ed1b5d614e02
+        snowflake:
+          body: -- You can use SQL to query data (ex. SELECT * FROM orders;)
+          filterBy: []
+          mappedColumns: []
+          newValues: []
+          oldValues: []
+          usePreparedSql: true
+  metadata:
+    description: ""
+    folder: ""
+    id: 24a84503-d780-4a33-8327-d4d947332df0
+    name: API1asdsadas
+    organization: 47278866-8fef-4750-a6af-2395394d900b
+    tags: {}
+    version: ""
+  trigger:
+    application:
+      id: 1f1e2d01-1d1b-407b-a2a1-ba4185c118a7
+applicationId: 1f1e2d01-1d1b-407b-a2a1-ba4185c118a7
+creator: {}
+folderId: ""
+id: 24a84503-d780-4a33-8327-d4d947332df0
+isDeployed: false
+name: API1asdsadas
+organizationId: 47278866-8fef-4750-a6af-2395394d900b
+sendEmailOnFailure: null
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: 125970b6-0a0e-41b8-90ec-bf087d77d584
+    editor:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+triggerType: 0
+updated: 1692976828691
