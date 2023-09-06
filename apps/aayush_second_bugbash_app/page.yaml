@@ -24,13 +24,22 @@ layouts:
                 message: "{{api_2.error}}"
                 style: error
                 type: showAlert
+          b1607cb4-5470-4940-8577-569b8fdff8e1:
+            dynamicTriggerPathList:
+              - key: onError
+            id: b1607cb4-5470-4940-8577-569b8fdff8e1
+            onError:
+              - id: f614436b-11a1-48e4-8f77-2ec59e1dc90d
+                message: "{{seondTestAPi.error}}"
+                style: error
+                type: showAlert
           c64eba04-1385-445b-a2a7-abb2fbe20f66:
             dynamicTriggerPathList:
               - key: onError
             id: c64eba04-1385-445b-a2a7-abb2fbe20f66
             onError:
               - id: 0b8ab3df-c5c9-49d1-8c20-47b0d3fea363
-                message: "{{testApi.error}}"
+                message: "{{firstTestApi.error}}"
                 style: error
                 type: showAlert
       backgroundColor: none
@@ -310,7 +319,7 @@ layouts:
           type: TABLE_WIDGET
           verticalAlignment: CENTER
           widgetId: 2t6xg4nsx8
-          widgetLastChange: 2023-09-06T20:55:31.677Z
+          widgetLastChange: 2023-09-06T20:59:32.874Z
           widgetName: Table1
         - animateLoading: true
           bottomRow: 42
@@ -577,7 +586,7 @@ layouts:
           type: TABLE_WIDGET
           verticalAlignment: CENTER
           widgetId: sl3dtjzekh
-          widgetLastChange: 2023-09-06T20:55:31.990Z
+          widgetLastChange: 2023-09-06T20:59:32.874Z
           widgetName: Table2
       containerStyle: none
       detachFromLayout: true
@@ -590,12 +599,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-09-06T20:55:31.677Z
+      widgetLastChange: 2023-09-06T20:59:55.649Z
       widgetName: MainContainer
     id: 5eca388c-d2a0-43f0-8d7c-33150a577d65
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-09-06T20:55:37.203Z
+    updated: 2023-09-06T21:00:01.796Z
     userPermissions: []
 name: Page1
-updated: 2023-09-06T20:55:37.203Z
+updated: 2023-09-06T21:00:01.796Z
