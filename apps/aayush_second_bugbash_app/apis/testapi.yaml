@@ -46,7 +46,7 @@ apiPb:
     description: ""
     folder: ""
     id: c64eba04-1385-445b-a2a7-abb2fbe20f66
-    name: API2
+    name: testApi
     organization: e93953a9-9ee2-410a-8bd9-3bccd3fd3de2
     tags: {}
     version: ""
@@ -58,7 +58,7 @@ creator: {}
 folderId: ""
 id: c64eba04-1385-445b-a2a7-abb2fbe20f66
 isDeployed: false
-name: API2
+name: testApi
 organizationId: e93953a9-9ee2-410a-8bd9-3bccd3fd3de2
 sendEmailOnFailure: null
 settings:
@@ -74,4 +74,4 @@ settings:
         - 0b000717-9c95-4c33-a007-d8d1f5d58ad1
       defaultProfileId: 0b000717-9c95-4c33-a007-d8d1f5d58ad1
 triggerType: 0
-updated: 1693498142311
+updated: 1694033699449

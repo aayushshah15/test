@@ -21,7 +21,7 @@ layouts:
             id: 994c6da8-d870-48ca-a879-19623f549bdb
             onError:
               - id: 98d15c0b-eedc-4f75-94c5-4fa1df21f357
-                message: "{{API3.error}}"
+                message: "{{api_2.error}}"
                 style: error
                 type: showAlert
           c64eba04-1385-445b-a2a7-abb2fbe20f66:
@@ -30,7 +30,7 @@ layouts:
             id: c64eba04-1385-445b-a2a7-abb2fbe20f66
             onError:
               - id: 0b8ab3df-c5c9-49d1-8c20-47b0d3fea363
-                message: "{{API2.error}}"
+                message: "{{testApi.error}}"
                 style: error
                 type: showAlert
       backgroundColor: none
@@ -44,7 +44,7 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 64
+          bottomRow: 46
           cachedColumnSettings: {}
           columnOrder:
             - photo
@@ -93,7 +93,7 @@ layouts:
           isSearchable: true
           isVisible: true
           label: Data
-          leftColumn: 2
+          leftColumn: 11
           onCancelChanges:
             - id: asy7hwqrdk
               newWindow: true
@@ -242,9 +242,9 @@ layouts:
               textSize: PARAGRAPH
               verticalAlignment: CENTER
               width: 150
-          rightColumn: 94
+          rightColumn: 96
           snapColumns: 92
-          snapRows: 62
+          snapRows: 29
           tableData: >-
             [
               {
@@ -306,11 +306,11 @@ layouts:
             ]
           tableHeader: Users
           textSize: PARAGRAPH
-          topRow: 2
+          topRow: 17
           type: TABLE_WIDGET
           verticalAlignment: CENTER
           widgetId: 2t6xg4nsx8
-          widgetLastChange: 2023-08-31T15:46:33.209Z
+          widgetLastChange: 2023-09-06T20:54:52.954Z
           widgetName: Table1
       containerStyle: none
       detachFromLayout: true
@@ -323,12 +323,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-08-31T16:09:42.576Z
+      widgetLastChange: 2023-09-06T20:54:58.573Z
       widgetName: MainContainer
     id: 5eca388c-d2a0-43f0-8d7c-33150a577d65
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-08-31T16:09:49.864Z
+    updated: 2023-09-06T20:55:03.793Z
     userPermissions: []
 name: Page1
-updated: 2023-08-31T16:09:49.864Z
+updated: 2023-09-06T20:55:03.793Z

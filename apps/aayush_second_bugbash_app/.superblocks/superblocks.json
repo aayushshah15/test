@@ -1,8 +1,8 @@
 {
   "apis": {
     "93853ff8-cfce-4557-a42c-cde168108bcd": "API1",
-    "994c6da8-d870-48ca-a879-19623f549bdb": "API3",
-    "c64eba04-1385-445b-a2a7-abb2fbe20f66": "API2"
+    "994c6da8-d870-48ca-a879-19623f549bdb": "api_2",
+    "c64eba04-1385-445b-a2a7-abb2fbe20f66": "testApi"
   },
   "configType": "APPLICATION",
   "defaultPageId": "dc6fe4fa-9f3e-4e07-8d53-afc2dfbd54a8",
