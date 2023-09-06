@@ -243,8 +243,8 @@ layouts:
               verticalAlignment: CENTER
               width: 150
           rightColumn: 96
-          snapColumns: 92
-          snapRows: 29
+          snapColumns: 85
+          snapRows: 41
           tableData: >-
             [
               {
@@ -306,11 +306,11 @@ layouts:
             ]
           tableHeader: Users
           textSize: PARAGRAPH
-          topRow: 17
+          topRow: 5
           type: TABLE_WIDGET
           verticalAlignment: CENTER
           widgetId: 2t6xg4nsx8
-          widgetLastChange: 2023-09-06T20:54:52.954Z
+          widgetLastChange: 2023-09-06T20:55:19.759Z
           widgetName: Table1
       containerStyle: none
       detachFromLayout: true
@@ -328,7 +328,7 @@ layouts:
     id: 5eca388c-d2a0-43f0-8d7c-33150a577d65
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-09-06T20:55:03.793Z
+    updated: 2023-09-06T20:55:23.482Z
     userPermissions: []
 name: Page1
-updated: 2023-09-06T20:55:03.793Z
+updated: 2023-09-06T20:55:23.482Z
